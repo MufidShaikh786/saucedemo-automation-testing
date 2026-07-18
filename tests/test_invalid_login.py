@@ -6,6 +6,6 @@ def test_invalid_login(page):
     page.wait_for_timeout(5000)
 
     error_message = page.text_content("[data-test='error']")
-    expected_error = "Username and password do not match any user in this service"
+    expected_error = "Epic sadface: Username and password do not match any user in this service"
 
     assert error_message == expected_error
