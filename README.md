@@ -23,3 +23,10 @@ All 4 test cases passing ✅
 
 ## Manual Test Cases
 Manual test cases are documented in `manual_test_cases.xlsx`, covering login, cart, and checkout scenarios with expected vs actual results.
+
+## API Testing
+API testing done using Postman on JSONPlaceholder API, covering:
+- Valid user data retrieval (status code + response validation)
+- Invalid user handling (404 error check)
+
+Postman collection exported as `api_tests_postman_collection.json`.
