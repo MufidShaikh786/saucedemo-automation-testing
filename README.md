@@ -19,7 +19,7 @@ playwright install
 pytest tests/ --headed
 
 ## Test Results
-All 4 test cases passing ✅
+All 7 test cases passing ✅
 
 ## Manual Test Cases
 Manual test cases are documented in `manual_test_cases.xlsx`, covering login, cart, and checkout scenarios with expected vs actual results.
